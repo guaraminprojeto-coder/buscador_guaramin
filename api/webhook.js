@@ -1,6 +1,6 @@
-import { interpretarBusca } from "../lib/gemini.js";
-import { buscarCadastros } from "../lib/busca.js";
-import { enviarMensagem, formatarResultados } from "../lib/whatsapp.js";
+import { interpretarBusca } from "../../lib/gemini.js";
+import { buscarCadastros } from "../../lib/busca.js";
+import { enviarMensagem, formatarResultados } from "../../lib/whatsapp.js";
 
 // Remove acentos para comparação
 function normalizar(texto) {
